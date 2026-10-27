@@ -1,9 +1,9 @@
-body{
+body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-header{
+header {
     background-color: #1d4ed8;
     padding: 5px 150px 20px;
 }
@@ -22,11 +22,18 @@ nav {
     justify-content: flex-end;
     font-size: 24px;
     color: #ffffff;
-    
+
 }
 
-nav a{
-    color:#ffffff;
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #111827;
+    border-radius: 8px;
+    padding: 10px;
 }
 
 nav ul li {
@@ -82,7 +89,7 @@ section {
 }
 
 
-.circleBlue{
+.circleBlue {
     border-radius: 50%;
     width: 100px;
     height: 100px;
@@ -93,7 +100,7 @@ section {
     padding: 0%;
 }
 
-.circleGreen{
+.circleGreen {
     border-radius: 50%;
     width: 100px;
     height: 100px;
@@ -104,7 +111,7 @@ section {
     padding: 0%;
 }
 
-.circlePurple{
+.circlePurple {
     border-radius: 50%;
     width: 100px;
     height: 100px;
@@ -116,10 +123,10 @@ section {
 }
 
 
-footer{
-padding: 20px 150px 20px;
-background-color: #111827;
-color: #ffffff;
+footer {
+    padding: 20px 150px 20px;
+    background-color: #111827;
+    color: #ffffff;
 }
 
 
@@ -190,7 +197,7 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .blueBox {
